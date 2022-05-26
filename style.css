@@ -10,6 +10,8 @@
 body {
   font-family: Montserrat, Helvetica, sans-serif;
   background: #f4f4f4;
+  background: rgb(237,24,253);
+  background: linear-gradient(90deg, rgba(237,24,253,1) 0%, rgba(26,220,250,0.7878501742493873) 55%, rgba(21,56,219,1) 100%);
 }
 
 nav {
@@ -285,9 +287,10 @@ h1 span:nth-child(1) {
 .card-back {
   background: rgb(26, 220, 250);
   transform: rotateY(180deg);
-  display: flex;
   justify-content: center;
   align-items: center;
+  display: flex;
+  flex-wrap: wrap;
 
 }
 .card-wrapper:nth-child(even) .card-back {
@@ -317,4 +320,30 @@ h1 span:nth-child(1) {
 .card-wrapper:nth-child(even) .card-back a:hover {
   background-color: rgb(26, 220, 250);
   color: #fff;
+}
+
+.pdp {
+    width: 25px;
+    border-radius: 100%;
+    border: black solid 3px;
+}
+
+.banniere {
+    padding-top: 10vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navdecal {
+    padding-top: 10vh;
+}
+
+.titre {
+    padding-top: 15vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Henny Penny', cursive;
 }
