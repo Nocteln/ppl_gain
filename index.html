@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Flex:opsz,wght@8..144,100;8..144,300;8..144,500;8..144,700;8..144,900&display=swap"
       rel="stylesheet"
@@ -24,6 +25,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3ac909e731.js" crossorigin="anonymous"></script>
+    
   </head>
   <body>
   
@@ -72,6 +74,28 @@
       <h1 class="navdecal titre">
         PaypalGain
       </h1>
+
+      <div class="present-container">
+        <div class="ronds">
+          <div class="rond-1">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, cumque.</p>
+          </div>
+          <div class="rond-1">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, cumque.</p>
+          </div>
+          <img src="./img/banniere.png" class="banniere">
+          <div class="rond-1">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, cumque.</p>
+          </div>
+          <div class="rond-1">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, cumque.</p>
+          </div>
+        </div>
+      </div>
     </div>
 
 
@@ -97,11 +121,11 @@
               
             </div>
             <div class="card-back">
-              <a href="#" class="btn"><img src="./img/pdp/Wyrz.png" alt="pdp de wyrz" class="pdp">  Chef : Wyrz#0001</a>
-              <a href="#" class="btn"><img src="./img/pdp/suruke.gif" alt="pdp de wyrz" class="pdp">  suruke#9957</a>
-              <a href="#" class="btn"><img src="./img/pdp/Xenoxy.png" alt="pdp de wyrz" class="pdp">  Xenoxy#7266</a>
-              <a href="#" class="btn"><img src="./img/pdp/nocteln.png" alt="pdp de wyrz" class="pdp">  Nocteln#6235</a>
-              <a href="#" class="btn"><img src="./img/pdp/82.gif" alt="pdp de wyrz" class="pdp">  ZΛydru82#6663</a>
+              <a href="#" class="btn"><img src="./img/pdp/Wyrz.png" alt="" class="pdp">  Chef : Wyrz#0001</a>
+              <a href="#" class="btn"><img src="./img/pdp/suruke.gif" alt="" class="pdp">  suruke#9957</a>
+              <a href="#" class="btn"><img src="./img/pdp/Xenoxy.png" alt="" class="pdp">  Xenoxy#7266</a>
+              <a href="#" class="btn"><img src="./img/pdp/nocteln.png" alt="" class="pdp">  Nocteln#6235</a>
+              <a href="#" class="btn"><img src="./img/pdp/82.gif" alt="" class="pdp">  ZΛydru82#6663</a>
             </div>
           </div>
         </div>
@@ -117,7 +141,7 @@
               
             </div>
             <div class="card-back">
-              <a href="#" class="btn"><img src="./img/pdp/SXN.png" alt="pdp de wyrz" class="pdp">  Chef : SXN#8037</a>
+              <a href="#" class="btn"><img src="./img/pdp/SXN.png" alt="" class="pdp">  Chef : SXN#8037</a>
             </div>
           </div>
         </div>
@@ -133,7 +157,7 @@
               
             </div>
             <div class="card-back">
-              <a href="#" class="btn"><img src="./img/pdp/prosper.png" alt="pdp de wyrz" class="pdp">  Chef : Prosper#3835</a>
+              <a href="#" class="btn"><img src="./img/pdp/prosper.png" alt="" class="pdp">  Chef : Prosper#3835</a>
             </div>
           </div>
         </div>
@@ -149,7 +173,7 @@
               
             </div>
             <div class="card-back">
-              <a href="#" class="btn"><img src="./img/pdp/ninjamatt974.png" alt="pdp de wyrz" class="pdp">  Chef : ninjamatt974#2009</a>
+              <a href="#" class="btn"><img src="./img/pdp/ninjamatt974.png" alt="" class="pdp">  Chef : ninjamatt974#2009</a>
             </div>
           </div>
         </div>
@@ -165,7 +189,7 @@
               
             </div>
             <div class="card-back">
-              <a href="#" class="btn"><img src="./img/pdp/cidjy.png" alt="pdp de wyrz" class="pdp">  Chef : ₵łĐJɎ#6507</a>
+              <a href="#" class="btn"><img src="./img/pdp/cidjy.png" alt="" class="pdp">  Chef : ₵łĐJɎ#6507</a>
             </div>
           </div>
         </div>
@@ -174,11 +198,73 @@
 
 
     <!--**** Avis ****-->
-    <div id="avis">
+    <div class="blog-slider" id="avis">
+      <div class="blog-slider__wrp swiper-wrapper">
 
+        <div class="blog-slider__item swiper-slide">
+          <div class="blog-slider__img">
+            <img src="./img/pdp/link28.png" alt="">
+          </div>
+          <div class="blog-slider__content">
+              <span class="blog-slider__code">note : 19/20</span>
+              <div class="blog-slider__title">@link28#9232 </div>
+            <div class="blog-slider__text">Super serveur ! Perso je trouve que c'est un des meilleurs serveur dans lequel je suis ! J'adore aussi les systèmes comme les team !</div>
+            <a href="https://discord.gg/tW4Raz6BVp" class="blog-slider__button">EN SAVOIR PLUS</a>
+          </div>
+        </div>
+        
+        <div class="blog-slider__item swiper-slide">
+          <div class="blog-slider__img">
+            <img src="./img/pdp/space.png" alt="">
+          </div>
+          <div class="blog-slider__content">
+            <span class="blog-slider__code">note : 19/20</span>
+            <div class="blog-slider__title">@! Space#0001</div>
+            <div class="blog-slider__text">Niveau esthétique propre rien à dire c'est original , le staff est compétent et actif , les offres sont bien ( en étant acheteur je confirme que c'est satisfait ) </div>
+            <a href="https://discord.gg/tW4Raz6BVp" class="blog-slider__button">EN SAVOIR PLUS</a>
+          </div>
+        </div>
+
+        <div class="blog-slider__item swiper-slide">
+          <div class="blog-slider__img">
+            <img src="./img/pdp/discord.png" alt="">
+          </div>
+          <div class="blog-slider__content">
+            <div class="blog-slider__title">Discord</div>
+            <a href="https://discord.gg/tW4Raz6BVp" class="blog-slider__button">Nous rejoindre</a>
+          </div>
+        </div>
+        
+      </div>
+      <div class="blog-slider__pagination"></div>
     </div>
 
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script><br/><br/>
+    
 
+
+    <footer>
+      <div class="footer-container">
+        <div class="sec aboutus">
+          <h2>A Propos De Nous</h2>
+          <p>PaypalGain est un serveur giveaway français vous permettant de gagner de l'argent en rejoignant des serveurs discord. Ce serveur à de multiples giveaways en cours ce qui vous permettra de vous faire de l'argent rapidement.</p>
+        </div>
+
+        <ul class="sci">
+          <li><a href="https://discord.gg/ZZ83zuDXhB"><i class="fa fa-brands fa-discord"></i></a></li>
+        </ul>
+
+        <div class="sec quicklinks">
+          <h2>Quick Links</h2>
+          <ul>
+          <li><a href="#" aria-current="page">Acceuil</a></li>
+          <li><a href="#présentation">Pésentation</a></li>
+          <li><a href="#team">Les teams</a></li>
+          <li><a href="#avis">Avis</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
 
     <script src="script.js"></script>
   </body>
